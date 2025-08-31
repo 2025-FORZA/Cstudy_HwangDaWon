@@ -3,7 +3,7 @@
 int main() {
     int N, M;
     scanf("%d %d", &N, &M);
-    int cards[100][100];  // 최대 100명, 100장 카드
+    int cards[100][100];  
     int score[100] = {0};
     for(int i = 0; i < N; i++) {
         for(int j = 0; j < M; j++) {
